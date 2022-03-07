@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-07T11:46:19.814Z" agent="5.0 (Windows)" etag="ddlGmVHCyaP4Uzh55p2g" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-07T11:48:07.700Z" agent="5.0 (Windows)" etag="58dFC070-AFpxdvwCWAm" version="16.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,6 +105,12 @@
         </mxCell>
         <mxCell id="6HkCZph5SqvhVZf6sTZP-36" value="&lt;div&gt;Event Invited&lt;/div&gt;&lt;div&gt;Status&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="150" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6HkCZph5SqvhVZf6sTZP-38" value="https://superglu.cloud" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="325" y="765" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="6HkCZph5SqvhVZf6sTZP-39" value="&lt;div&gt;UseEffect &lt;br&gt;&lt;/div&gt;&lt;div&gt;in a Higer &lt;br&gt;&lt;/div&gt;&lt;div&gt;Component &lt;br&gt;&lt;/div&gt;&lt;div&gt;maybe ?&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="410" width="90" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
