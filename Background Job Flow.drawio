@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-11T09:59:12.214Z" agent="5.0 (Windows)" etag="CzyONRjgY7oEAVnNgf_n" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-11T10:00:38.334Z" agent="5.0 (Windows)" etag="Zd3iX9giWZZGtcjXkJ1Q" version="17.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1497" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -198,7 +198,7 @@
         <mxCell id="4k0nX1ey7aPG4yUnOb5Q-63" value="status == &lt;b&gt;&lt;font color=&quot;#666600&quot;&gt;pending&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="375" y="490" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="4k0nX1ey7aPG4yUnOb5Q-64" value="notifyUserLambda" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="4k0nX1ey7aPG4yUnOb5Q-64" value="notifyUserLambda" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="700" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4k0nX1ey7aPG4yUnOb5Q-70" value="triggeredBy -&amp;nbsp; User Email" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -206,6 +206,9 @@
         </mxCell>
         <mxCell id="4k0nX1ey7aPG4yUnOb5Q-71" value="send Email using &quot;triggeredBy&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="650" y="380" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4k0nX1ey7aPG4yUnOb5Q-75" value="&lt;div&gt;This can be the Email service &lt;br&gt;&lt;/div&gt;&lt;div&gt;Lambda for now&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#990000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="680" y="480" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
