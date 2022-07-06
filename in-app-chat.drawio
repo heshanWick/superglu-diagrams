@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T03:34:37.671Z" agent="5.0 (Windows)" etag="OdMjzIk_FeWMd5uQTDOY" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-06T03:36:12.184Z" agent="5.0 (Windows)" etag="yggef2ltz0U0xKXoSTPm" version="20.0.4" type="github">
   <diagram id="LT1MwlxdsC5UkgZRmnNs" name="Page-1">
     <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6XDwwHrDYBpkL6cOkaTp-1" value="chat Table" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="101" y="130" width="140" height="120" as="geometry" />
+          <mxGeometry x="110" y="190" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6XDwwHrDYBpkL6cOkaTp-2" value="userId (PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="6XDwwHrDYBpkL6cOkaTp-1" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6XDwwHrDYBpkL6cOkaTp-5" value="chatMessages Table" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="341" y="130" width="140" height="180" as="geometry" />
+          <mxGeometry x="350" y="190" width="140" height="180" as="geometry" />
         </mxCell>
         <mxCell id="6XDwwHrDYBpkL6cOkaTp-6" value="chatId(PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="6XDwwHrDYBpkL6cOkaTp-5" vertex="1">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -35,22 +35,28 @@
           <mxGeometry y="150" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HVg5W-mPSef3V78qNZUp-1" value="Getting all Chats per User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="88.5" y="280" width="170" height="30" as="geometry" />
+          <mxGeometry x="97.5" y="340" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HVg5W-mPSef3V78qNZUp-2" value="QUERY PK: userID &amp;amp;&amp;amp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="88.5" y="310" width="150" height="30" as="geometry" />
+          <mxGeometry x="97.5" y="370" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HVg5W-mPSef3V78qNZUp-3" value="QUERY Inverted Keys GSI PK: senderId" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="51" y="330" width="240" height="30" as="geometry" />
+          <mxGeometry x="60" y="390" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HVg5W-mPSef3V78qNZUp-6" value="&lt;div&gt;Can get sughted values from the DB itself&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="491" y="190" width="250" height="30" as="geometry" />
+          <mxGeometry x="500" y="250" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HVg5W-mPSef3V78qNZUp-7" value="Pagniation can be supported this way in the future" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="476" y="220" width="300" height="30" as="geometry" />
+          <mxGeometry x="485" y="280" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HVg5W-mPSef3V78qNZUp-8" value="&lt;div style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 22px;&quot;&gt;CHAT SERVICE&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="319" y="50" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HVg5W-mPSef3V78qNZUp-9" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Tables&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=7;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVg5W-mPSef3V78qNZUp-10" value="&lt;div style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Lambdas&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=7;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="100" y="470" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
