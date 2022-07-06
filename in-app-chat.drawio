@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T03:29:33.866Z" agent="5.0 (Windows)" etag="g3jtvewG5JjdI5sGBJnK" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-06T03:31:40.031Z" agent="5.0 (Windows)" etag="vk3g8N_nnwWsKWuLy9_k" version="20.0.4" type="github">
   <diagram id="LT1MwlxdsC5UkgZRmnNs" name="Page-1">
     <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="6XDwwHrDYBpkL6cOkaTp-4" value="chatId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="6XDwwHrDYBpkL6cOkaTp-1" vertex="1">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6XDwwHrDYBpkL6cOkaTp-5" value="chatMessages" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+        <mxCell id="6XDwwHrDYBpkL6cOkaTp-5" value="chatMessages Table" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="310" y="80" width="140" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6XDwwHrDYBpkL6cOkaTp-6" value="chatId(PK)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" parent="6XDwwHrDYBpkL6cOkaTp-5" vertex="1">
