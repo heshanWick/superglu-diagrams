@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T03:42:28.987Z" agent="5.0 (Windows)" etag="xCxayez9bG6IAVPrYCZT" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-06T03:44:26.907Z" agent="5.0 (Windows)" etag="ESHgqdNp2kMmCUG7HQ3H" version="20.0.4" type="github">
   <diagram id="LT1MwlxdsC5UkgZRmnNs" name="Page-1">
     <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,6 +81,12 @@
         </mxCell>
         <mxCell id="HVg5W-mPSef3V78qNZUp-16" value="POST: updateSeenStatus()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
           <mxGeometry x="35" y="780" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HVg5W-mPSef3V78qNZUp-18" value="&lt;div&gt;Inverted GSI: &lt;br&gt;&lt;/div&gt;&lt;div&gt;senderId(PK),&lt;/div&gt;&lt;div&gt;userId(SK)&lt;br&gt; &lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="110" y="320" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HVg5W-mPSef3V78qNZUp-19" value="1 GSI: messageId(PK)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="325" y="410" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
