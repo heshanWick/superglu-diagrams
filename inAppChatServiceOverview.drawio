@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T07:00:40.030Z" agent="5.0 (Windows)" etag="iWDpUK1_-iJemWoKkFmy" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-19T07:04:46.465Z" agent="5.0 (Windows)" etag="CeF0vBL8t-2ixsn46bwJ" version="20.0.4" type="github">
   <diagram id="jdRbJNzQJf3ULVlRVG2P" name="Page-1">
-    <mxGraphModel dx="1497" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tpsmDuAzEhyBbQ_yPCMv-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;inAppChat Service&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="160" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tpsmDuAzEhyBbQ_yPCMv-2" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;socketConnection Service&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="70" width="250" height="60" as="geometry" />
+        <mxCell id="tpsmDuAzEhyBbQ_yPCMv-2" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;socketConnection Service&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;getOrganizationByEmail();&lt;/font&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="tpsmDuAzEhyBbQ_yPCMv-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=20;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -45,7 +45,7 @@
             <mxPoint x="380" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tpsmDuAzEhyBbQ_yPCMv-11" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;sendMessage&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;	&lt;/span&gt;email: &amp;lt;email&amp;gt;,&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;	&lt;/span&gt;chatId: &amp;lt;chatId&amp;gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;}&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="tpsmDuAzEhyBbQ_yPCMv-10">
+        <mxCell id="tpsmDuAzEhyBbQ_yPCMv-11" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;sendMessage&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;email: &amp;lt;email&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;	&lt;/span&gt;chatId: &amp;lt;chatId&amp;gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;}&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="tpsmDuAzEhyBbQ_yPCMv-10">
           <mxGeometry x="0.2471" relative="1" as="geometry">
             <mxPoint x="-42" y="-10" as="offset" />
           </mxGeometry>
@@ -98,6 +98,15 @@
           <mxGeometry x="0.2" y="1" relative="1" as="geometry">
             <mxPoint x="-1" y="-10" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tpsmDuAzEhyBbQ_yPCMv-27" value="refreshChat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="390" y="491" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tpsmDuAzEhyBbQ_yPCMv-28" value="refreshChat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="551" y="498" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tpsmDuAzEhyBbQ_yPCMv-29" value="refreshChat" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="690" y="498" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
