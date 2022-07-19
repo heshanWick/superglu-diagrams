@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-19T07:00:05.429Z" agent="5.0 (Windows)" etag="RrpmtmNIjrr7RUo-hvIh" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-19T07:00:40.030Z" agent="5.0 (Windows)" etag="iWDpUK1_-iJemWoKkFmy" version="20.0.4" type="github">
   <diagram id="jdRbJNzQJf3ULVlRVG2P" name="Page-1">
     <mxGraphModel dx="1497" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,6 +29,11 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="330" as="sourcePoint" />
             <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tpsmDuAzEhyBbQ_yPCMv-26" value="&lt;div&gt;createChat,&lt;/div&gt;&lt;div&gt;getChats&lt;/div&gt;&lt;div&gt;addNewParticipants&lt;/div&gt;&lt;div&gt;getMessages&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="tpsmDuAzEhyBbQ_yPCMv-8">
+          <mxGeometry x="0.3689" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tpsmDuAzEhyBbQ_yPCMv-9" value="&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;refreshChat&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
